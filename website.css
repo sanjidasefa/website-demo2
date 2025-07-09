@@ -1,0 +1,125 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+}
+.header{
+  background-image: url(images/developer.png) , url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: #FFF8F3;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+.navigation h1{
+  font-size: 45px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.nav-title{
+  display: flex;
+}
+.nav-title li{
+  list-style: none;
+  margin: 0 15px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.nav-title li a{
+  text-decoration: none;
+  color: #474747;
+  
+}
+.btn{
+  background-color: #FD6E0A;
+  border: 0 solid;
+  border-radius: 5px;
+  padding: 10px;
+  color: aliceblue;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 200px; */
+  margin: 0 35px 0 200px;
+} 
+.banner-content h3{
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.banner-content h1{
+  font-size: 85px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.banner-des{
+  font-size: 18px;
+  margin: 20px 0;
+}
+.banner-img{
+  width: 584px;
+  height: 676px;
+}
+.btn2{
+  background-color: antiquewhite;
+  color: #FD6E0A;
+  border: #FD6E0A solid 1px;
+  padding: 10px;
+  border-radius: 5px;
+}
+main{
+  max-width: 1140px; 
+  margin: 0 auto;
+}
+.about{
+  background-color: #FFF8F3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin: 160px auto;
+  text-align: center;
+}
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  text-transform: capitalize;
+}
+.section-des{
+  color: #757575;
+  font-size: 18px;
+}
+.item{
+  display: flex;
+  justify-content: space-around;
+}
+.about-item{
+  font-size: 20px;
+  font-weight: mixed;
+}
+.about-item p{
+  color: #474747;
+}
+.about-item h1{
+  color: #C9C4C4;
+}
+.section{
+  text-align: center;
+}
+.card-cointainer{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 24px;
+}
+.card{
+  /* border: 0px solid #181818; */
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  margin-top: 30px;
+}
