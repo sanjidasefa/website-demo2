@@ -2,7 +2,6 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
 }
 .header{
   background-image: url(images/developer.png) , url(images/header_bg.png);
@@ -39,7 +38,7 @@
   background-color: #FD6E0A;
   border: 0 solid;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
   color: aliceblue;
 }
 .banner{
@@ -70,7 +69,7 @@
   background-color: antiquewhite;
   color: #FD6E0A;
   border: #FD6E0A solid 1px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px;
 }
 main{
@@ -89,6 +88,8 @@ main{
   font-weight: bold;
   color: #181818;
   text-transform: capitalize;
+  text-align: center;
+ margin: 60px auto;
 }
 .section-des{
   color: #757575;
@@ -122,4 +123,61 @@ main{
   padding: 20px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   margin-top: 30px;
+}
+.resume-section{
+  display: flex;
+  gap: 24px;
+}
+.colume-title{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(71, 71, 71, 1);
+  margin: 30px auto;
+}
+.exprience{
+  margin: 20px auto;
+}
+.expriance-title{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(71, 71, 71, 1);
+}
+.expriance-subtitle{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(117, 117, 117, 1);
+}
+.exprience-des{
+  font-size: 16px;
+  color: rgba(117, 117, 117, 1);
+}
+.resume-button{
+ text-align: center;
+ margin: 20px auto;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFF8F3;
+  padding: 40px 140px;
+}
+.footer-section{
+  width: 50%;
+}
+.footer-from input {
+  display: block;
+  border: 0px;
+  border-radius: 5px;
+  margin: 10px;
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+.footer-from textarea{
+  border: 0px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
 }
